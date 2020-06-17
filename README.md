@@ -10,6 +10,13 @@
 
 </div>
 
+```
+by Sv443
+github.com/Sv443
+contact@sv443.net
+June 1, 2020
+```
+
 ## Info:
 Conway's Game of Life in the Command Line Interface.  
 Features a bunch of premade presets, a random generator and an editor to create your own presets.  
@@ -21,11 +28,25 @@ I strongly recommend using CMD, Git Bash or zsh to run this since it renders bet
 <br>
 
 ## Steps to build:
-1. Have Node.js and npm installed (I recommend the latest v14)
-2. Download or clone the repo and open a terminal in the downloaded folder
-3. Install dependencies by running the command `npm i` in the terminal
-4. Run the command `npm run build` to build the executables (they're located in the `dist` folder)
 
+### Prerequisites
+- Node.js  (I recommend the latest v14), node.js can be downloaded from [Nodes.js](https://nodejs.org/en/) and Npm [download](https://www.npmjs.com/get-npm)
+
+### Download 
+##### clone the repo and open a terminal in the downloaded folder
+```bash
+> git clone https://github.com/Sv443/Conways-CLIfe.git
+```
+### Install dependencies 
+```bash
+> cd /path/to/dowloaded/folder/Conways-CLIfe
+> npm i
+```
+
+### to build the executables (which are located in the `dist` folder)
+```bash
+> npm run build
+```
 <br>
 
 ## Rules of Conway's game of life:
@@ -44,3 +65,6 @@ I strongly recommend using CMD, Git Bash or zsh to run this since it renders bet
 - [perlin-noise](https://npmjs.com/package/perlin-noise)
 - [svjsl](https://npmjs.com/package/svjsl)
 - [unzipper](https://npmjs.com/package/unzipper)
+
+## links
+- [Conway's game of life: wikipidea](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
